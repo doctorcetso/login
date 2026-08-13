@@ -2,7 +2,7 @@
 
 //incluir el archivo de conexion
 
-include("conection.php");
+include("connection.php");
 
 //declaramos las variables
 
@@ -23,7 +23,7 @@ $result = mysqli_query($connection, $insert);
 if ($result) {
     echo "Usuario registrado correctamente";
 } else {
-    echo "Error al registrar el usuario: ";
+    echo "Error al registrar el usuario: " . mysqli_error($connection);
 }
 
 ?>
