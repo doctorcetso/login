@@ -14,9 +14,6 @@
 
 <body>
 
-    <!-- inicia formulario -->
-
-
     <div class="container">
         <form action="enviar_user.php" method="post">
             <h1>formulario de registro usuarios</h1>
