@@ -19,7 +19,7 @@
           
             <div class="mb-3">
                 <label for="exampleInputusuario" class="form-label">usuario</label>
-                <input type="text" name="usuario" class="form-control" id="exampleInputusuario" required>
+                <input type="text" name="user" class="form-control" id="exampleInputusuario" required>
             </div>
            
             <div class="mb-3">
